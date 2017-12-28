@@ -1,45 +1,72 @@
 <!doctype html>
 <html>
 <head>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ <script src="javascript/scripts.js"></script>
 <link rel="stylesheet" type="text/css" href="css/mystyles.css" />
 <title>The Dan Cave</title>
 
 </head>
 
-  <header>University</header>
-
 <body>
 
-  <div class="navcontainer" id="navcontainer">
+  <div class="navcontainer">
+  
     <nav>
-        <a href="index.html">Home</a>
-        <a href="personal.html">Personal</a>
-        <a href="university.html">University</a>
-        <a href="dailypost.html">Daily Post</a>
-        <a href="learningtidbits.html">Learning Tidbits</a>
-        <a href="music.html">Music</a>
+        <a href="index.html">Home</a> 
+       <a href="personal.html">Personal</a> 
+       <a href="university.html">University</a> 
+      <a href="dailypost.html">Daily Post</a> 
+       <a href="learningtidbits.html">Learning Tidbits</a> 
+       <a href="music.html">Music</a> 
+	  
     </nav>
 </div>
-  
-<section>
-  <article class="studying">
-    <p>
-       I am a third year Computing student at De Montfort University. Focussed primarily around programming and software design, I have built up a knowledge of C#, SQL, Java and JavaScript.
-    </p>
-  </article>
-</section>
-  
-  <section>
-  <article class="currentwork">
-    <p>
-       I am currently working on a responsive website for my Front End Web Development module. The site you are looking at right now, in fact. Interested in some of the design choices? Click the link down below.
-    </p>
-  </article>
-</section>
 
-<aside class="jslink">
-link to javascript enabled content
-  </aside>
+
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<header class="mainHeader">
+  <nav>
+<ul>
+  <li><a class="menu" data-target="#container_introduction" href="#">Introduction</a></li>
+  <!--class="active"-->
+  <li><a class="menu" data-target="#container_university" href="#">University</a></li>
+  <li><a class="menu" data-target="#container_about" href="#">About</a></li>
+
+</ul>
+  </nav>
+</header>
+
+
+<div id="container_introduction">
+  <div class="mainContent">
+<p> As I'm sure you've noticed by now; this is a website developed by myself. But why? 
+    As a student of Computing at De Montfort University, I am expected to create many different types of programs and systems as part of the course syllabus. This site is a project undertaken as part of my Front End Web Development module; which the aim was to create an interactive, responsive website using the technologies we had learned prior to the assessment being given. Namely: HTML5, CSS and JavaScript.  </p>
+	<img class="uni1" src="images/uni1.png">
+  </div>
+</div>
+
+
+
+<div id="container_university">
+  <div class="mainContent">
+<p> As a third year Computing student, I have learnt many things over the years. From system design and development to writing research papers, from designing and developing websites to article comparison.
+Where has this magic taken place?! At De Montfort University, of course. (Home of John 'Totalbiscuit' Bain, for you eSports fans out there)
+
+ </p>
+  </div>
+</div>
+
+<div id="container_about">
+  <div class="mainContent">
+<p> spics </p>
+  </div>
+</div>
+
+
+
 	
 <div class="footercontainer" id="navcontainer">
 <footer>

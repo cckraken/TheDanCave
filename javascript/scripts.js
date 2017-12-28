@@ -51,3 +51,20 @@ $(document).ready(function() {
         $(".music a img").css("display", "none"); // hide all product images
     })
 });
+
+/*This script changes the content on the university page depending on the current dropdown menu selection*/
+
+$(document).ready(function() {
+
+  $(".menu").click(function() {
+   var selectedContainerId = $(this).attr("data-target");
+	
+   //show the selected container
+   var selectedContainer = $(selectedContainerId);
+   selectedContainer.show();
+ 
+   //hide others
+   $('div[id*="container_"]').not(selectedContainer).hide();
+ 
+  });
+});
