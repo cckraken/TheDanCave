@@ -45,16 +45,34 @@ Or completely HTML5 semantic, as shown below.
 <img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant3.png">
 
 ## 4.) Creative CSS3 usage
-
+I'm quite pleased with my CSS3 development. I've learned a lot about styling, especially navigation and image grouping using flexbox. Below are some examples.
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/css1.png">
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/css2.png">
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/css3.png">
 
 ## 5.) JS implementation
+When it came to using JavaScript, I had to choose between just adding JS functionality for the sake of it, or adding functionality that actually benefits the site and has a clear purpose. I chose the latter. Below are some examples.
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/func1.png">
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/func2.png">
 
 
-## 6.) Reflection
+### 6.) Reflection
 
+## Overall
 Once I got over my illness and got back on track with my other 
 assignments, I really enjoyed developing this website. I learned a lot 
 on the way which is why some of my basic paper designs are quite 
 different to what I ended up doing. This is because I found better ways 
 to display what I wanted to display, at least when it came to JavaScript
  (which I had to learn as I did it) and desktop views.
+ 
+ ## HTML
+ Web development has never been my strong point. Despite this, I've improved my understanding quite a lot since starting this project. Unfortunately most of that understanding came in with only a few days before the assessment deadline, but I can use the skills I've learnt here in the future.
+ 
+ ## CSS
+ If web development assessments have taught me one thing; it's that I am not much of a creative person. I sometimes struggle to find inspiriation for cool and functional styling, but despite this, I have still learned a good deal.
+ 
+ ## JavaScript
+ As mentioned above, I chose to add JS functionality that would benefit the site rather than dump JS all over the place and hope for extra marks. Still, I am quite pleased with what I managed.
+ 
+ 
