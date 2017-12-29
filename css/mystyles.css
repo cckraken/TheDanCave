@@ -118,7 +118,9 @@ body {
   text-align: inline;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;}
+  font-size: 17px;
+  transform: scale(1);
+  transition: 0.8s ease;}
   
  .footercontainer a:hover {  background-color: #ddd;
   color: black;
@@ -129,11 +131,11 @@ body {
 footer { position: absolute;
   bottom: 0;
   left: 0;
- 
   width: 100%;
   font-size: 17px;
   background-color: #333;
-  text-align: left;}
+  text-align: left;
+  }
  
  
 
@@ -149,10 +151,13 @@ footer { position: absolute;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transform: scale(1);
+transition: 0.8s ease;
 }
 
 .navcontainer a:hover {
   background-color: #ddd;
+  
   color: black;
 }
 
@@ -170,20 +175,6 @@ footer { position: absolute;
           text-align: center;
 
 }		  
-
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
   
 table
                   {margin-left:auto; 
@@ -193,16 +184,15 @@ table
 		  padding-top: 220px;
 		  }
 		  
-		  
-
-		  
+		  		  
 /* Handles the stylings for the mouseover text pieces. Image is automatically hidden and is shown when hovered over by the user; changed via JS*/
 		  
  p.personal a img {
     display: none;
     position: absolute;
-    left: -80px;
-    top: -22px;
+    left: -300%;
+    top: 150%;
+	border: 4px solid grey;
 
 }
 p.personal a {
@@ -220,8 +210,10 @@ p.personal {
  p.university a img {
     display: none;
     position: absolute;
-
-    top: 22px;
+    left: -250%;
+    top: 150%;
+	border: 4px solid grey;
+    
 
 }
 p.university a {
@@ -238,8 +230,9 @@ p.university {
  p.dailypost a img {
     display: none;
     position: absolute;
-
-    top: 22px;
+    left: -150%;
+    top: 150%;
+	border: 4px solid grey;
 
 }
 p.dailypost a {
@@ -247,6 +240,7 @@ p.dailypost a {
     position: relative;
 	color: inherit;
 	text-decoration:none;
+	
 	
 }
 p.dailypost {
@@ -256,8 +250,9 @@ p.dailypost {
  p.learningtidbits a img {
     display: none;
     position: absolute;
-
-    top: 22px;
+    left: -50%;
+    top: 150%;
+	border: 4px solid grey;
 
 }
 p.learningtidbits a {
@@ -274,8 +269,9 @@ p.learningtidbits{
  p.music a img {
     display: none;
     position: absolute;
-
-    top: 22px;
+    left: -450%;
+    top: 150%;
+    border: 4px solid grey;
 
 }
 p.music a {
@@ -283,6 +279,7 @@ p.music a {
     position: relative;
 	color: inherit;
 	text-decoration:none;
+	
 	
 }
 p.music {
@@ -292,39 +289,31 @@ p.music {
 
 
 /*Main styling for DailyPost page*/
-	
-.dailyposts {
-            box-sizing: border-box;
-            border: 1px solid black;
-			padding: 15px;
-			text-align:center;
-		
-			}
-			
+				
 .basilchase {
             box-sizing: border-box;
-            border: 2px solid red;
+            border: 2px solid grey;
 			padding: 10px;
 			margin: 10px;
 			}
 			
 .recentillness {
             box-sizing: border-box;
-            border: 2px solid red;
+            border: 2px solid grey;
 			padding: 10px;
 			margin: 10px;
 			}
 			
 .websitedevelopment {
             box-sizing: border-box;
-            border: 2px solid red;
+            border: 2px solid grey;
 			padding: 10px;
 			margin: 10px;
 			}
 			
 .christmas {
             box-sizing: border-box;
-            border: 2px solid red;
+            border: 2px solid grey;
 			padding: 10px;
 			margin: 10px;
 			}
@@ -344,6 +333,30 @@ div[id*="container_"] {
 }
 
 
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+ 
+.imgcontainer {margin-left:auto; 
+          margin-right:auto;
+		  font-size: 25px;
+          text-align: center;
+		  padding-top: 120px;
+		  height: 40%;
+}
+
+.html, .css, .javascript {
+height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+	}
+
+
+
 /*Main styling for Personal page*/
 
 .aboutme {width: 20%;
@@ -360,59 +373,24 @@ div[id*="container_"] {
 
 .picofme{
 
-         float: left;
-         display: block;
-		 width: 540px;
-		 height: auto;
-		 padding: 70px;
-		 margin: none;
-		 border: none;
-
+         height: 25%;
+      width: 25%;
+	  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
 }
 
-table.personaltable {
-		 float: left;
-		 margin: none;
-		 border: none;
-		 text-align: left;
-		 position: absolute;
-		 padding-top: 810px;
-		  
-}
-table.personaltable tr td {
-padding: 0 15px;  
-}
  /*Main styling for Learning Tidbits page*/
  
- .learn1 {
+ .learn1, .learn2, .learn3, .learn4 {
             box-sizing: border-box;
-            border: 1px solid red;
+            border: 2px solid grey;
 			padding: 15px;
 			text-align:center;
-		margin: 10px;
+		    margin: 10px;
 			}
-			
-.learn2 {
-            box-sizing: border-box;
-            border: 2px solid red;
-			padding: 10px;
-			margin: 10px;
-			}
-			
-.learn3 {
-            box-sizing: border-box;
-            border: 2px solid red;
-			padding: 10px;
-			margin: 10px;
-			}
-			
-.learn4 {
-            box-sizing: border-box;
-            border: 2px solid red;
-			padding: 10px;
-			margin: 10px;
-			}
-			
+
 /*Main styling for Music page*/
 
 .video {
