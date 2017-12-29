@@ -68,3 +68,31 @@ $(document).ready(function() {
  
   });
 });
+
+/*Google maps for DMU*/
+function initMap() {
+  let dmu = {lat: 52.629780, lng: -1.139370};
+  let mapDemo = document.getElementById("map");
+
+  // this sets the default location for when the map is first loaded
+  let map = new google.maps.Map(mapDemo, {
+    zoom: 13,
+    center: dmu
+  });
+
+  // these set different markers you want to show on your map
+  let markerDMU = new google.maps.Marker({
+    position: dmu,
+    map: map,
+  });
+  google.maps.event.addListener(map, "idle", function(){
+  google.maps.event.trigger(map, 'resize'); 
+  
+});
+$(document).ready(function(){
+  setTimeout(initMap, 1000);
+});
+  
+ 
+}
+
