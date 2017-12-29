@@ -92,7 +92,10 @@ function initMap() {
 $(document).ready(function(){
   setTimeout(initMap, 1000);
 });
-  
  
 }
 
+/*JSON*/
+
+var header = document.querySelector('header');
+var section = document.querySelector('section');
