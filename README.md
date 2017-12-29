@@ -19,10 +19,10 @@ different to what I ended up doing. This is because I found better ways
 to display what I wanted to display, at least when it came to JavaScript
  (which I had to learn as I did it) and desktop views.
 
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26133145_10215648014816931_1581262824_n.jpg])
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26133271_10215648015016936_165727140_n.jpg])
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26135350_10215648016496973_150541141_n.jpg])
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26176616_10215648012096863_49556011_n.jpg])
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26177334_10215648012616876_1222303218_n.jpg])
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26234128_10215648012576875_1194766307_n.jpg])
-!([https://github.com/cckraken/TheDanCave/blob/master/designs/26236264_10215648012296868_621161456_o.jpg])
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26133145_10215648014816931_1581262824_n.jpg)
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26133271_10215648015016936_165727140_n.jpg)
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26135350_10215648016496973_150541141_n.jpg)
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26176616_10215648012096863_49556011_n.jpg)
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26177334_10215648012616876_1222303218_n.jpg)
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26234128_10215648012576875_1194766307_n.jpg)
+(https://github.com/cckraken/TheDanCave/blob/master/designs/26236264_10215648012296868_621161456_o.jpg)
