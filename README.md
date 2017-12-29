@@ -39,10 +39,10 @@ Initial designs of my site can be found below. As mentioned above, a few of them
 I often find Div elements easier to style and manage compared to semantic HTML5 elements, but I included as much as I could, wherever appopriate.
 
 Often times this involsves semantic elements with a div container, as shows in the first and second picture.
-<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant1.jpg">
-<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant2.jpg">
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant1.png">
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant2.png">
 Or completely HTML5 semantic, as shown below.
-<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant3.jpg">
+<img src="https://github.com/cckraken/TheDanCave/blob/master/designs/semant3.png">
 
 ## 4.) Creative CSS3 usage
 
