@@ -75,4 +75,9 @@ to display what I wanted to display, at least when it came to JavaScript
  ## JavaScript
  As mentioned above, I chose to add JS functionality that would benefit the site rather than dump JS all over the place and hope for extra marks. Still, I am quite pleased with what I managed.
  
+ ## Known issues for future development
+ - Fix image pathing on index
+ - Better resizing of elements and responsiveness for mobile
+ - Fix responsivement for tablets
+ - Improve CSS coding; combining similar elements, learning new transitions etc
  
