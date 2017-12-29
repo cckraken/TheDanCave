@@ -107,6 +107,8 @@ body {
   font-family: sans-serif; 
   background: url(../images/background.jpg);
   background-size: 100%
+  
+}
 
 }
 
@@ -294,8 +296,10 @@ p.music {
             box-sizing: border-box;
             border: 2px solid grey;
 			padding: 10px;
-			margin: 10px;
+			margin: 10px;	
+			
 			}
+			 
 			
 .recentillness {
             box-sizing: border-box;
@@ -359,27 +363,50 @@ height: auto;
 
 /*Main styling for Personal page*/
 
-.aboutme {width: 20%;
-         float: left;
-         display: block;
-		 margin-left: 50px;
-		 padding: 70px;
-		 padding-top: 120px;
-		 padding-left: 650px;
-		 font-size: 20px;
-		 position: absolute;
-		 
+/*Flexbox properties gleamed from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.flexheader {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+  justify-content: center;
+}
+.flexheader > div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+.flexheader  div img {
+width: 90%; 
+  height: auto; 
 }
 
-.picofme{
 
-         height: 25%;
-      width: 25%;
-	  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: none;
-}
+/*Container for the text*/
+.text-container-top {display: inherit;
+  overflow: hidden;
+  margin: 0;
+  width: 60%;
+  float: center;
+   }
+ 
+
+.top-blockquote {padding: 0;
+  line-height: 1.4em;
+  float: center;
+  width: 70%;
+  }
+
+
+
+
 
  /*Main styling for Learning Tidbits page*/
  
